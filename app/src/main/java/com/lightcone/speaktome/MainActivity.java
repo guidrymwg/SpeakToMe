@@ -147,9 +147,9 @@ public class MainActivity extends AppCompatActivity implements OnInitListener, O
     public void sayIt(String text, boolean flushQ) {
         if (isInit) {
             if (flushQ) {
-                tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+                tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, null);
             } else {
-                tts.speak(text, TextToSpeech.QUEUE_ADD, null);
+                tts.speak(text, TextToSpeech.QUEUE_ADD, null, null);
             }
         } else {
             Log.i(TAG, "Failure: TTS instance not properly initialized");
