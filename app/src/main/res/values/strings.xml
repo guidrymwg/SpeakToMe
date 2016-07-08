@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SpeakToMe</string>
+    <string name="goLabel">Speak</string>
+    <string name="clearLabel">Clear Text</string>
+    <string name="enter_text">(Enter text)</string>
+    <string name="action_settings">Settings</string>
 </resources>
